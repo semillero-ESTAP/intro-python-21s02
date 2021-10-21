@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Python para análisis de datos</title>
+  <link rel="icon" type="image/x-icon" href="src/favicon.ico" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="wrapper" class="d-flex">
+
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="index.html">
+                    Introducción a Python
+                </a>
+            </li>
+            <hr style="width:50%" color="grey">
+            <li>
+                <a href="install.html">Instalación de Python</a>
+            </li>
+            <li>
+                <a href="pip.html">Gestión de librerias</a>
+            </li>
+            <li>
+                <a href="editors.html">Editores de texto</a>
+            </li>
+            <li>
+                <a href="terminal.html">Terminal</a>
+            </li>
+            <li>
+                <a href="books.html">Material de Consulta</a>
+            </li>
+            <hr style="width:50%" color="grey">
+            <li>
+                <a href="sesion1.html">Sesión 1</a>
+            </li>
+            <li>
+                <a href="sesion2.html">Sesión 2</a>
+            </li>
+            <li>
+                <a href="sesion3.html">Sesión 3</a>
+            </li>
+            <li>
+                <a href="sesion4.html">Sesión 4 </a>
+            </li>
+            <li>
+                <a href="sesion5.html">Sesión 5 </a>
+            </li>
+            <hr style="width:50%" color="grey">
+            <li>
+              <a href="credits.html" class="mt-3">Créditos </a>
+            </li>
+            <li>
+                <a href="inscripciones.html" class="mt-3">Inscripciones &#128072;</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+     
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+            <button class="btn btn-primary" id="menu-toggle">Mostrar Menú</button>
+          </nav>
+          <div class="container-fluid mt-3" id="Introducción a R">           
+              <h1>Gestión de librerías </h1>
+              <p>
+                En programación un librería es una extensión del lenguaje original con alguna finalidad especifica, por ejemplo en python existen librerías 
+                especificas para analizar y gráficar datos, otras librerías para realizar análisis estadísticos y aprendizaje automático, librerías para desarrollo 
+                web entre otros. Algunas de las librerías que serán usadas en esta serie de talleres son: <b>pandas, matplotlib, seaborn y numpy.</b>  <br>
+                Si se esta usando Anaconada como instalador, muchas de estas librerias ya vienen instaladas por defecto, sin embargo si se usa una instalación modular
+                o si desea instalar paquetes adicionales que no esten incluidos con Anaconada es necesario usar un gestor de paquetes externos como lo es PIP.            
+              </p>
+              <h3>PIP</h3>
+              <p>
+                Para tal fin python cuenta con herramientas integradas (se incluye por defecto en la instalación) para la gestión de librerías (instalar, desinstalar y actualizar) una de ellas es PIP,
+                una herramienta que se usa mediante la consola o <a href="terminal.html">terminal</a>.
+              </p>
+              <h6>Comandos básicos de PIP</h6>
+              <ul>
+                  <li>
+                    Instalar librería 
+                  </li>
+                  <code>pip install NombreLibreria</code>
+                  <li>
+                      Desinstalar librería 
+                  </li>
+                  <code>pip uninstall NombreLibreria</code>
+                  <li>
+                      Actualizar librería 
+                  </li>
+                  <code>pip install --upgrade NombreLibreria</code>
+              </ul>
+              
+              <h2 class="mb-3">Vídeo de apoyo</h2>
+              <p>En el siguiente vídeo se detalla la manera en la cual se gestionan las librerías de python usando PIP o Anaconda.</p>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZulztwiRK6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+                
+
+         </div>
+     </div>
+
+  <!-- /#wrapper -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Python para análisis de datos</title>
+  <link rel="icon" type="image/x-icon" href="src/favicon.ico" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="wrapper" class="d-flex">
+
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="index.html">
+                    Introducción a Python
+                </a>
+            </li>
+            <hr style="width:50%" color="grey">
+            <li>
+                <a href="install.html">Instalación de Python</a>
+            </li>
+            <li>
+                <a href="pip.html">Gestión de librerias</a>
+            </li>
+            <li>
+                <a href="editors.html">Editores de texto</a>
+            </li>
+            <li>
+                <a href="terminal.html">Terminal</a>
+            </li>
+            <li>
+                <a href="books.html">Material de Consulta</a>
+            </li>
+            <hr style="width:50%" color="grey">
+            <li>
+                <a href="sesion1.html">Sesión 1</a>
+            </li>
+            <li>
+                <a href="sesion2.html">Sesión 2</a>
+            </li>
+            <li>
+                <a href="sesion3.html">Sesión 3</a>
+            </li>
+            <li>
+                <a href="sesion4.html">Sesión 4 </a>
+            </li>
+            <li>
+                <a href="sesion5.html">Sesión 5 </a>
+            </li>
+            <hr style="width:50%" color="grey">
+            <li>
+              <a href="credits.html" class="mt-3">Créditos </a>
+            </li>
+            <li>
+                <a href="inscripciones.html" class="mt-3">Inscripciones &#128072;</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+     
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+            <button class="btn btn-primary" id="menu-toggle">Mostrar Menú</button>
+          </nav>
+          <div class="container-fluid mt-3" id="Introducción a R">           
+              <h1>Editores de texto para Python</h1>
+              <p>
+                  Python es un lenguaje interpretado lo cual implica que el código que escribamos debe pasar por un interprete el cuál ejecuta el código linea por linea
+                  sin la necesidad previa de ser compilado, como pasa en otros lenguajes. Para ello el código que sea escrito estará contenido en archivos con extensión
+                  .py, sin embargo, tambien existe la posibilidad de realizar la interpretación de estas lineas de código de manera interactiva y para ello se usaran archivos
+                  con extension .ipynb (interactive python notebook).
+              </p>
+              
+              <h3>Jupyter Notebook</h3>
+              <p>
+                  Jupyter es uno de los editores mas usados a la hora de trabajar con archivos interactivos de python (.ipynb), se trata de una aplicación basada en la web (se ejecuta en el navegador y de manera local),
+                  capaz de ejecutar codigo de Python ya sean archivos de texto plano (.py) o mediante notebooks interactivos (.ipynb). Este puede ser instalado mediante anaconda o usando el gestor de paquetes PIP.
+                  <ul>
+                      <li>
+                          Instalacion mediante PIP
+                      </li>
+                      <code>pip install notebook</code>
+                  </ul>
+              </p>   
+              <h3>Visual Studio Code</h3>
+              <p>
+                  Visual Studio Code (VScode) es un editor de código desarrollado por Microsoft que soporta gran variedad de lenguajes de programación entre ellos Python ya
+                  sea usando archivos de código plano (.py) o notebooks interactivos (.ipynb). Se caracteriza por ser un editor liviano compatible con una gran cantidad de extensiones  
+                  que agregan gran cantidad de funcionalidades.
+                  <ul>
+                      <li><a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Windows</a></li>
+                      <li><a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin">macOS</a></li>
+                  </ul>
+                  Para gozar de todas las funcionalidades de Python es VScode es necesario instalar dos extensiones: Python y Jupyter. <br>
+                  También es necesario tener una instalación activa de Python (Anaconda o Modular). 
+              </p>
+              
+              <h3>Google Colab</h3>
+              <p>
+                Google Colab es un editor en la nube similar a Jupyter, que puede ser usado por cualquiera y de manera que gratuita mediante una cuenta de Google. 
+                Una de las ventajas es que no es necesario configurar nada en el computador que estemos trabajando y los archivos o códigos desarrollados siempre estan 
+                accesibles en la nube.
+                <ul>
+                    <li>
+                        <a href="https://colab.research.google.com/">Google Colab</a>
+                    </li>
+                </ul>
+              </p>
+
+              <h3>Vídeo de apoyo</h3>
+              El siguente vídeo muestra los pasos de instalación para los editores vistos acá, además de una pequeña introducción a cada uno de ellos.
+              <div class="embed-responsive embed-responsive-16by9 mt-3" >
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/klQGC2xRUCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+         </div>
+     </div>
+
+  <!-- /#wrapper -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+
+
+</body>
+
+</html>
